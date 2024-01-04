@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+.p3{
+    background-color: rgb(173, 212, 29);
+    height: 200px;
+    border: 10px solid brown;
+    margin: 20px 80px 100px 100px;
+    background-image: url('kid.jpg');
+    background-size: cover;
+
+}

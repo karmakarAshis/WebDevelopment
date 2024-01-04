@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+h1{
+    height: 700px;
+    color :aliceblue;
+    background-color: #c93c3c;
+    background-image: url('../kid1.jpg');
+    /* background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-size: cover;
+}
+h2{
+    background-color: aquamarine;
+    text-decoration: overline;
+}
+.blog{
+    margin: 10px;
+    border: 5px solid tomato;
+    box-shadow: 10px 10px 15px rgb(255, 164, 148);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.amet{
+    border: 2px solid red;
+    /* display: block; */
+    margin: 10px;
+    /* display: inline-block; */
+}
+li{
+    /* display: inline; */
+}
