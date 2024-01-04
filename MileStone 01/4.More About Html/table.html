@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create a Table</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="VideoAudio.html">Video</a></li>
+                <li><a href="form.html ">Form</a></li>
+                <li><a href="table.html">Table
+                    <ul class="dropdown">
+                        <li><a href="VideoAudio.html">Video</a></li>
+                        <li><a href="form.html ">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption>table caption
+            </caption>
+            <thead>
+                <tr>
+                    <th>no</th>
+                    <th>Name</th>
+                    <th>company</th>
+                    <th>salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>steve</td>
+                    <td>Apple</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mark</td>
+                    <td>facebook</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Elon</td>
+                    <td>spaceX</td>
+                    <td>$90000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">table footer</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
