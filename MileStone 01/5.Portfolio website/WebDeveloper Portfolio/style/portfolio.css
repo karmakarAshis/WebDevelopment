@@ -98,7 +98,7 @@ nav a {
     margin-bottom: 20px;
 }
 
-.banner-discription {
+.banner-description {
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -112,11 +112,22 @@ nav a {
 }
 
 /* main section style */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
