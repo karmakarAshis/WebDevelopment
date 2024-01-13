@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        .dir{
+            border: 2px solid red;
+            border-radius: 10px;
+            background: #03eb3d;
+            height: 400px;
+            padding: 10px;
+            
+        }
+        /* small device midea quary */
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        /* medium device midea quary */
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dir">LEFT</div>
+        <div class="dir">RIGHT</div>
+        <div class="dir">LEFT2</div>
+        <div class="dir">RIGHT2</div>
+    </div>
+</body>
+</html>
