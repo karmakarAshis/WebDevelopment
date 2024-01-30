@@ -10,3 +10,9 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+let num1 = 8;
+let num2 = 9;
+
+const result = (num1 > num2) ? 2*num1 : num1+num2;
+
+console.log(result);
