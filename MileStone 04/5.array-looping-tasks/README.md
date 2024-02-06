@@ -22,7 +22,7 @@ Write a JavaScript code to get the even numbers from an array using any looping 
 
 **Output:**
 
-`[12, 98, 76, 46]`
+`[12, 98, 78, 46]`
 
 ---
 
