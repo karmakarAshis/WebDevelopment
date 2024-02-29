@@ -22,8 +22,8 @@ function monthlySavings(arr, livingCost) {
 }
 
 
-// const myIncome = [900, 2700, 3400];
-// const livingCost = 10000;
+const myIncome = [900, 2700, 3400];
+const livingCost = 10000;
 
-// const saving = monthlySavings(myIncome, NaN);
-// console.log(saving);
+const saving = monthlySavings(myIncome, livingCost);
+console.log(saving);
